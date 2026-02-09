@@ -1,0 +1,26 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+### Pillow / Image Processing ###
+# 원본 이미지와 결과물 이미지 (실수로 업로드하는 것 방지)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+#font
+*.ttf
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IDE ###
+.vscode/
+.idea/
