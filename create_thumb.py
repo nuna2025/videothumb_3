@@ -68,9 +68,10 @@ my_texts = [
         'text': 'Redewendung',
         'font_path': "Hahmlet-ExtraBold.ttf",
         'font_size': 200,
-        'x': 25, 'y': 150,
+        'x': 23, 'y': 150,
         'color': (20, 20, 20, 240), # 흰색, 약간 투명
-        'shadow': False
+        'shadow': True,
+        'shadow_color': (30, 200, 30, 200)
     },
     {
         'text': '50',
