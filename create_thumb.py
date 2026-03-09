@@ -74,7 +74,7 @@ my_texts = [
         'shadow_color': (30, 200, 30, 200)
     },
     {
-        'text': '50',
+        'text': '70',
         'font_path': "Hahmlet-Black.ttf",
         'font_size': 250,
         'x': 600, 'y': 290,
@@ -92,7 +92,7 @@ my_texts = [
         'shadow': False
     },
     {
-        'text': 'A1 : Nr. 1 ~ 50',
+        'text': 'B2 : Nr. 201 ~ 270',
         'font_path': "Hahmlet-SemiBold.ttf",
         'font_size': 80,
         'x': 500, 'y': 630,
@@ -115,4 +115,4 @@ for t in my_texts:
 #     t['font_path'] = "C:/Windows/Fonts/malgun.ttf" # 한글 폰트 경로로 수정 필요
 
 # 최종 함수 실행
-create_16_9_custom_text("thumbV3-deFl-16-9.png", "Redewendung_1-50.jpg", my_texts, "black")
+create_16_9_custom_text("thumbV3-deFl-16-9.png", "B2-Redewendung_201-270.jpg", my_texts, "black")
